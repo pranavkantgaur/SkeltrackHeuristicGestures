@@ -1,18 +1,29 @@
 /* We use skeltrack to extract skeleton information and it is used to predict gesture of user. Predicted gesture is returned at output screen.
  */
-#include "SkeltrackGestures.h"
+#include "SkeltrackHeuristicGestures.h"
 
 
 /*! \fn void SkeltrackGesture::extractSkeletonJoints()
- *  \brief Receives coordinates of skeleton from Skeltrack library interface.
- */
-void extractSkeletonJoints()
+ *  \brief Receives coordinates of skeleton from Skeltrack library interface */
+void SkeltrackHeuristicGestures::extractSkeletonJoints()
 {
 
 	
 }
 
-void predictSkeletonGesture();
+
+/*! \fn void SkeltrackHeuristicGestures::predictSkeletonGesture()
+ *  \brief Predicts the gesture given joint coordinates.
+ */
+void SkeltrackHeuristicGestures::predictSkeletonGesture()
 {
 
 }
+
+
+/*! \fn void SkeltrackHeuristicGestures::showGesture()
+ *  \brief Shows predicted gesture.
+ */
+void SkeltrackHeuristicGestures::showGesture()
+{
+}	

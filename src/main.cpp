@@ -1,6 +1,6 @@
 /* Top level source file for this project.
- */
-#include "SkeltrackGestures.h"
+*/
+#include "SkeltrackHeuristicGestures.h"
 
 int main()
 {

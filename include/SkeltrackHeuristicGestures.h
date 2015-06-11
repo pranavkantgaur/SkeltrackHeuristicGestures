@@ -3,7 +3,7 @@
 /*! class SkeltrackGesture
  *  \brief Model of gesture recognizer based on Skeltrack.
  */
-class SkeltrackGesture
+class SkeltrackHeuristicGestures
 {
 	public:
 		void extractSkeletonJoints();
