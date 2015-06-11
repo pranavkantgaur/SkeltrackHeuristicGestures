@@ -6,6 +6,7 @@
 class SkeltrackHeuristicGestures
 {
 	public:
+		void initializeSkeltrack();
 		void extractSkeletonJoints();
 		void predictSkeletonGesture();
 		void showGesture();
